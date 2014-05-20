@@ -1,0 +1,11 @@
+option java_outer_classname = "MailProtos";
+
+message mail
+{
+required int32 id= 1;//id for the mail
+required string from= 2;//name of the sender 
+required string toIP = 3;//name of the reciever
+optional string subject = 4;
+optional string category = 5;
+optional string body= 6;
+}
